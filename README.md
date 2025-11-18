@@ -313,6 +313,10 @@ So, the commits will still be shown as made by `github-actions`.
 * ✨ Prevent CI workflows from running on a latest changes commit, add […. PR [#15](https://github.com/khulnasoft/latest-changes/pull/15) by [@khulnasoft-bot](https://github.com/khulnasoft-bot).
 * ⬆ Bump khulnasoft/issue-manager from 0.5.0 to 0.5.1. PR [#11](https://github.com/khulnasoft/latest-changes/pull/11) by [@dependabot[bot]](https://github.com/apps/dependabot).
 
+#### Features
+
+* 🔧 Update GitHub Actions bot user configuration. PR [#5](https://github.com/khulnasoft-bot/latest-changes/pull/5) by [@khulnasoft-bot](https://github.com/khulnasoft-bot).
+
 #### Refactors
 
 * Revert "♻️ Refector Update main.py". PR [#13](https://github.com/khulnasoft/latest-changes/pull/13) by [@NxPKG](https://github.com/NxPKG).
