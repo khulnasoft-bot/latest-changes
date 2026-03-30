@@ -29,6 +29,9 @@ on:
 jobs:
   latest-changes:
     runs-on: ubuntu-latest
+    # Needed for private repos
+    permissions:
+      pull-requests: read
     steps:
       - uses: actions/checkout@v4
       - uses: khulnasoft/latest-changes@0.3.2
@@ -164,6 +167,9 @@ on:
 jobs:
   latest-changes:
     runs-on: ubuntu-latest
+    # Needed for private repos
+    permissions:
+      pull-requests: read
     steps:
     - uses: actions/checkout@v2
     - uses: khulnasoft/latest-changes@0.3.2
@@ -276,6 +282,9 @@ on:
 jobs:
   latest-changes:
     runs-on: ubuntu-latest
+    # Needed for private repos
+    permissions:
+      pull-requests: read
     steps:
       - uses: actions/checkout@v4
         with:
@@ -304,6 +313,9 @@ So, the commits will still be shown as made by `github-actions`.
 
 ### Latest Changes - Latest Changes 🤷
 
+* ⬆ Bump actions/cache from 4 to 5. PR [#7](https://github.com/khulnasoft-bot/latest-changes/pull/7) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump actions/upload-artifact from 5 to 6. PR [#8](https://github.com/khulnasoft-bot/latest-changes/pull/8) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 📝 Add permissions needed for private repos. PR [#9](https://github.com/khulnasoft-bot/latest-changes/pull/9) by [@khulnasoft-bot](https://github.com/khulnasoft-bot).
 * 📝 Tweak docs with new label infra. PR [#4](https://github.com/khulnasoft-bot/latest-changes/pull/4) by [@khulnasoft-bot](https://github.com/khulnasoft-bot).
 * ⬆ Bump actions/checkout from 4 to 5. PR [#3](https://github.com/khulnasoft-bot/latest-changes/pull/3) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump actions/upload-artifact from 4 to 5. PR [#2](https://github.com/khulnasoft-bot/latest-changes/pull/2) by [@dependabot[bot]](https://github.com/apps/dependabot).
